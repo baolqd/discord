@@ -1,0 +1,50 @@
+.section2{
+  display: inline-block;
+  
+  }
+  .image1{
+     
+      position: relative;
+      left:350px;
+      display:inline-flex;
+  }
+  .descriptions{
+      color:var(--quite-black);
+      display:flex;
+  }
+  .hero__header{
+      font-weight: 800;
+      font-size: 40px;
+      margin-left: 350px;
+  }
+  .hero__text{
+      font-size:2rem;
+      line-height:1.6;
+      margin-left: 350px;
+  }
+  feature1__box {
+    display: flex;
+    align-items: center;
+    padding: 15rem 0;
+  }
+  .feature__picture {
+    width: 55%;
+    margin-right: 5rem;
+  }
+  .feature__content {
+    max-width: 350px;
+    color: var(--quite-black);
+    line-height: 1.2;
+  }
+  .feature__content > h2 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+  .feature__content > p {
+    color: #3a3b3d;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.6;
+    word-spacing: 2px;
+  }
